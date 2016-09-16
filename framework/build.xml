@@ -119,6 +119,11 @@
                 </section>
             </manifest>
         </jar>
+	<exec executable="ln">
+	  <arg value="-sf"/>
+	  <arg value="play-${version}.jar"/>
+	  <arg value="play.jar"/>
+	</exec>
     </target>
 
     <target name="support">
